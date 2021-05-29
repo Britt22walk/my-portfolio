@@ -1,50 +1,62 @@
 /*Header Styling*/
 
 header  {
+  
+  
+  position: fixed;
   font-size: 20px;
-  justify-content: center;
+  top:0;
+  left: 0;
+  right: 0;
   color: white; 
-  padding: 1px;
   background-color: #2EC4B6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: end;
   letter-spacing: 4px;
 }
 
-header nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border: 1px solid white; 
-  flex-wrap: wrap;
-  width: 50%;
+nav-brand {
+  color: white
 }
 
+
 header nav ul{
-  display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
-  padding: 0px; 
+  padding:1px;
+  min-width: max-content;
+   
 }
 
 header nav ul a {
   text-decoration: none;
-  margin: 0 20px 0 0;
+}
+header nav ul li{
+  margin: 5px auto;
+}
+
+h1, h2{
+  text-align: center;
+  margin: 5px auto;
+}
+
+h3{
+  font-size: 20px; 
+  color: #481D02;
 }
 
 /*Body Styling*/
+
+body{
+  margin-top:200px
+}
 
 section{
   margin: 1px; 
 }
 
-h3{
-  font-size: 20px; 
-  color: #FF9F1C;
-}
+
 
 .me-img{
-  border-radius: 50%;
+  border-radius: 75%;
 }
 
 img{
@@ -73,10 +85,7 @@ hr /*stylized horizontal ruler*/ {
   width: 50%; 
 }
 
-.group{
-  display: flex;
-  flex-direction: column;
-}
+
 
 .col-group{
   display: flex;
@@ -90,14 +99,14 @@ hr /*stylized horizontal ruler*/ {
   flex: 1;
   margin: 10px;
   justify-content: center; 
-  align-items: center; 
+   
 }
 
 .item-border{
   flex: 1;
-  border: 1px solid #FF9F1C;
+  border: 2px solid #FF9F1C;
   margin: auto; 
-  padding: 10px; 
+  padding: 5%; 
   justify-content: fl;
   
 }
@@ -175,9 +184,7 @@ footer a:visited{ color: #CBF3F0}
     padding: 10px;
   }
 
-  .group{
-    flex-directon: row;
-  }
+ 
 
   .col-group{
     display: flex;
@@ -189,7 +196,7 @@ footer a:visited{ color: #CBF3F0}
 }
 
 /*Links Styling*/
-a:link    { color:#FF9F1C;  }
+a:link    { color:#FFBF69  }
 a:visited { color: #FFBF69;   }
 a:hover   { color:#CBF3F0; }
 a:active  { color:#CBF3F0;  }
