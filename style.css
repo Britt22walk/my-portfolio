@@ -46,14 +46,16 @@ h3{
 /*Body Styling*/
 
 body{
-  margin-top:200px
+  margin-top:180px
 }
 
 section{
   margin: 1px; 
 }
 
-
+.portfolio-item{
+  border: 1px solid #FF9F1C
+}
 
 .me-img{
   border-radius: 75%;
@@ -73,10 +75,7 @@ main {
   padding: 10px; 
 }
 
-.wrapper {
-  margin: auto;
-  width: 70%; 
-}
+
 
 hr /*stylized horizontal ruler*/ {
   height:5px ;
@@ -87,20 +86,9 @@ hr /*stylized horizontal ruler*/ {
 
 
 
-.col-group{
-  display: flex;
-  flex-direction: column;
-  align-items: baseline; 
-  flex-wrap: wrap; 
-  justify-content: space-between;
-}
 
-.item{
-  flex: 1;
-  margin: 10px;
-  justify-content: center; 
-   
-}
+ 
+
 
 .item-border{
   flex: 1;
